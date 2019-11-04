@@ -87,13 +87,33 @@ def br_q(bitrate):
 # }
 
 #Myanmar
+#ranges = {
+# 360 : np.hstack((np.arange(0.025, 0.15, 0.025))), 
+# 480 : np.hstack((np.arange(0.025, 0.15, 0.025))),#np.arange(0.175, 0.396, 0.05),0.395)), 
+# 720 : np.hstack((0.075, 0.45, np.arange(0.1, 0.5, 0.05))), 
+# 1080: np.hstack((0.45, 0.785, np.arange(0.4, 0.85, 0.05))), 
+# 1440: np.hstack((0.785,0.75,1.72, np.arange(0.8, 1.8, 0.1))), 
+# 2160: np.hstack((1.72, 1.7, np.arange(1.8, 10, 0.2)))
+# }
+
+#Skateboarding
+# ranges = {
+# 360 : np.hstack((np.arange(0.025, 0.15, 0.025))), 
+# 480 : np.hstack((np.arange(0.025, 0.15, 0.025))),#np.arange(0.175, 0.396, 0.05),0.395)), 
+# 720 : np.hstack((0.075, 0.21, np.arange(0.1, 0.25, 0.025))), 
+# 1080: np.hstack((0.21, 0.32, np.arange(0.2, 0.35, 0.025))), 
+# 1440: np.hstack((0.32, np.arange(0.3, 1.5, 0.1))), 
+# 2160: np.hstack((1.0, 1.2, 0.8, np.arange(1.3, 10, 0.25)))
+# }
+
+#Animals
 ranges = {
-360 : np.hstack((np.arange(0.025, 0.15, 0.025))), 
-480 : np.hstack((np.arange(0.025, 0.15, 0.025))),#np.arange(0.175, 0.396, 0.05),0.395)), 
-720 : np.hstack((0.075, 0.45, np.arange(0.1, 0.5, 0.05))), 
-1080: np.hstack((0.45, 0.785, np.arange(0.4, 0.85, 0.05))), 
-1440: np.hstack((0.785,0.75,1.72, np.arange(0.8, 1.8, 0.1))), 
-2160: np.hstack((1.72, 1.7, np.arange(1.8, 10, 0.2)))
+360 : np.hstack((np.arange(0.025, 0.175, 0.025))), 
+480 : np.hstack((0.256, np.arange(0.075, 0.25, 0.025))),
+720 : np.hstack((0.423, 1.575, np.arange(0.4, 1.625, 0.075))), 
+1080: np.hstack((1.575, np.arange(1.3, 5, 0.1))), 
+1440: np.hstack((np.arange(2.6, 5, 0.1))), 
+2160: np.hstack((1.0, 1.2, 0.8, np.arange(2.6, 10, 0.2)))
 }
 
 #loops with different ranges for different resolutions
